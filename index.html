@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <section id="screen">
+        <div id="showSum">0</div>
+      </section>
+
+      <section id="buttons">
+        <ul id="firstRow" class="btns">
+          <li><button class="btn reset">AC</button></li>
+          <li><button class="btn reset">C</button></li>
+          <li><button class="btn operator" value="%">%</button></li>
+          <li><button class="btn operator" value="/">/</button></li>
+        </ul>
+        <ul id="secondRow" class="btns">
+          <li><button class="btn num" value="7">7</button></li>
+          <li><button class="btn num" value="8">8</button></li>
+          <li><button class="btn num" value="9">9</button></li>
+          <li><button class="btn operator" value="+">+</button></li>
+        </ul>
+        <ul id="thirdRow" class="btns">
+          <li><button class="btn num" value="4">4</button></li>
+          <li><button class="btn num" value="5">5</button></li>
+          <li><button class="btn num" value="6">6</button></li>
+          <li><button class="btn operator" value="-">-</button></li>
+        </ul>
+        <ul id="fourthRow" class="btns">
+          <li><button class="btn num" value="1">1</button></li>
+          <li><button class="btn num" value="2">2</button></li>
+          <li><button class="btn num" value="3">3</button></li>
+          <li><button class="btn operator" value="x">x</button></li>
+        </ul>
+        <ul id="fifthRow" class="btns">
+          <li><button class="btn num" value="0">0</button></li>
+          <li><button class="btn num" value=".">.</button></li>
+          <li><button id="calculateBtn" class="btn" value="=">=</button></li>
+        </ul>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
