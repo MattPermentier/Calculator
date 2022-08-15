@@ -11,12 +11,13 @@
     <div id="container">
       <section id="screen">
         <div id="showSum">0</div>
+        <div id="showResult"></div>
       </section>
 
       <section id="buttons">
         <ul id="firstRow" class="btns">
           <li><button class="btn reset">AC</button></li>
-          <li><button class="btn reset">C</button></li>
+          <li><button class="btn reset delete">C</button></li>
           <li><button class="btn operator" value="%">%</button></li>
           <li><button class="btn operator" value="/">/</button></li>
         </ul>
@@ -36,16 +37,16 @@
           <li><button class="btn num" value="1">1</button></li>
           <li><button class="btn num" value="2">2</button></li>
           <li><button class="btn num" value="3">3</button></li>
-          <li><button class="btn operator" value="x">x</button></li>
+          <li><button class="btn operator" value="*">*</button></li>
         </ul>
         <ul id="fifthRow" class="btns">
           <li><button class="btn num" value="0">0</button></li>
           <li><button class="btn num" value=".">.</button></li>
-          <li><button id="calculateBtn" class="btn" value="=">=</button></li>
+          <li><button id="calculateBtn">=</button></li>
         </ul>
       </section>
     </div>
 
-    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
   </body>
 </html>
