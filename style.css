@@ -29,7 +29,8 @@ body {
   margin-bottom: 30px;
 }
 
-#showSum {
+#showSum,
+#showResult {
   display: flex;
   justify-content: end;
   margin: 10px;
